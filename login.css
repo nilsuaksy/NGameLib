@@ -1,0 +1,59 @@
+body {
+    background-image: url("https://wallpapers.com/images/high/purple-gaming-mcb69yalbjzocfl0.webp");
+
+    background-size: cover;
+    background-position: center;
+    filter: blur(100%);
+    -webkit-filter: blur(100%);
+   }
+
+   .p1 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 0 0 10px #FF0000, 0 0 10px #ff0000;
+    margin-top: -12%;
+
+}
+   .p2 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 0 0 10px #FF0000, 0 0 10px #ff0000;
+}
+
+.neden {
+    text-shadow: 2px 2px 5px rgb(64, 0, 255);
+    border: 5px;
+    border-style: dotted solid dashed double;
+    border-color: rgb(164, 11, 188);
+    margin-left: 5%; 
+    margin-top: 5%;
+    padding-left: 3%;
+    padding-top: 2%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+
+   }
+
+   .uye  {
+    text-shadow: 2px 2px 5px rgb(64, 0, 255);
+    border: 5px;
+    border-style:  solid dashed double dotted;
+    border-color: rgb(164, 11, 188);
+    margin-left: 5%;
+    margin-top: 5%;
+    padding-right:7%;
+    padding-top: 2%; 
+    padding-left: 2%;
+   }
+
+
+   .giris {
+    text-shadow: 2px 2px 5px rgb(64, 0, 255);
+    border: 5px;
+    border-style:  dashed double dotted solid; 
+    border-color: rgb(164, 11, 188);
+    margin-left: 5%;
+    margin-top: 5%;
+    padding-right: 3%;
+    padding-top: 2%; 
+    padding-left: 2%;
+
+   }
