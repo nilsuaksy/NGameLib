@@ -31,7 +31,7 @@
       <h5 style="color: rgb(255, 255, 255);"><b> Neden Ngamelib? </b></h5> <br>
       <ul>
         <li style="color: rgb(255, 255, 255);"> <b> Steam, Xbox, Playstation, Epic Games vb. <br> bütün oyun platformlarınızı entegre ederek <br> bütün oyunlarınıza erişim sağlayabilirsiniz. </b> </li> <br>
-        <li style="color: rgb(255, 255, 255);"> <b> Tamamiyle ücretsizdir. </b></li> <br>
+        <li style="color: rgb(255, 255, 255);"> <b> Tamamiyle ücretsizdir. </b> </li> <br>
       </ul>
       <p style="color: rgb(255, 255, 255);"> <b> Oyun kütüphanelerinizi bağlayabilmek için <br> ücretsiz üye olun veya hesabınız varsa üye girişi <br> yapınız. <br> </b></p>
 
@@ -41,7 +41,7 @@
       <h5> <b> Hemen ücretsiz üye ol! </b></h5> <br>
       <form>
         <label for="fname">İsim</label> 
-        <input placeholder="Nilsu" type="text" id="fname" class="border-info" name="fname" style="margin-left: 23.8%;" size="15px"> <br>
+        <input placeholder="Nilsu" type="text" id="fname" class="form-control border-info"name="fname" style="margin-left: 23.8%;" size="15px"> <br>
         <label for="lname">Soyisim</label>
         <input placeholder="Aksoy" type="text" id="lname" class="border-info" name="lname" style="margin-left: 13.4%;" size="15px"><br>
         <label for="email">Email</label> 
@@ -59,7 +59,7 @@
         <input type="checkbox" class="form-check-input" id="exampleCheck1">
         <label class="form-check-label" for="exampleCheck1">Ben robot değilim.</label>
       </div>
-      <button id="btnuye" type="button" class="btn btn-outline-info border-info" style="color: rgb(255, 255, 255);">Üye Ol</button>
+      <button id="btnuye" type="button" onclick="signupUser()" class="btn btn-outline-info border-info" style="color: rgb(255, 255, 255);">Üye Ol</button>
 
 
   </div>
@@ -68,12 +68,12 @@
       <h5> <b> Giriş yap </b></h5> <br>
       <form>
         <label for="username"> Kullanıcı Adı</label>
-        <input placeholder="Kullanıcı Adı" type="text" class="border-info" id="username" name="username" size="15px"><br>
+        <input placeholder="Kullanıcı Adı" type="text" class="border-info" id="usernamee" name="username" size="15px"><br>
         <label for="pwd"> Şifre </label>
-        <input placeholder="Şifre" type="password" class="border-info" id="pwd" name="pwd" size="15px" style="margin-left: 22.8%";>
+        <input placeholder="Şifre" type="password" class="border-info" id="pwdd" name="pwd" size="15px" style="margin-left: 22.8%";>
       </form>
       <br>
-      <button id="btngiris" type="button" class="btn btn-outline-info border-info" style="color: rgb(255, 255, 255);">Giriş Yap</button>
+      <button id="btngiris" type="button" onclick="loginUser()" class="btn btn-outline-info border-info" style="color: rgb(255, 255, 255);">Giriş Yap</button>
       <button id="btnforget" type="button" class="btn btn-outline-info border-info" style="color: rgb(255, 255, 255);">Şifremi Unuttum</button>
 
   </div>
