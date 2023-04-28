@@ -19,7 +19,7 @@ function loginUser() {
         const jsonRes = await res.json();
         localStorage.setItem('user', JSON.stringify(jsonRes))
         window.location.href="indexxx.html"
-        //MERHABALAR AYOL
+        //MERHABALAR AYOL YAHU
     });
 }
 
