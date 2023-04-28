@@ -15,7 +15,12 @@ function loginUser() {
             "content-type": "application/json"
         },
         body: JSON.stringify(userLoginInfo)
-    }).then(res => console.log(res));
+    }).then(async res => {
+        const jsonRes = await res.json();
+        localStorage.setItem('user', JSON.stringify(jsonRes))
+        window.location.href="indexxx.html"
+        
+    });
 }
 
 function signupUser() {

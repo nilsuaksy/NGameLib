@@ -30,7 +30,7 @@ app.post('/login', async (req, res) => {
                 res.status(400).json({ message: 'Girdiğiniz kullanıcı bilgileri yanlıştır.' })
             }
         } else {
-            res.status(404).json({ message: 'Kullanıcı bulunamadı' });
+            res.status(404).json({ message: 'Kullanıcı bulunamadı.' });
         }
     } catch (error) {
         console.log(error)
